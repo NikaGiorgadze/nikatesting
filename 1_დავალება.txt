@@ -1,0 +1,55 @@
+1.
+
+public static void main(String[] args) {
+
+ for (int i = 2; i <= 20; i++){
+            if(i%2==0){
+                System.out.println(i);
+            }
+        }
+
+2.
+
+public static void main(String[] args) {
+
+ for (int i = 10; i >=1 ; i--) {
+            System.out.println(i);
+        }
+    }
+
+3.
+
+public static void main(String[] args) {
+
+       int i = 1;
+       int multipableNumber = 3;
+       while (i<=10){
+    System.out.println(multipableNumber + "*" + i + "=" + i*multipableNumber);
+    i++;
+       }
+    }
+
+4.
+
+public static void main(String[] args) {
+
+        int i = 20;
+        if (i % 2 == 0) {
+            System.out.println("i love khinkali");
+        } else {
+            System.out.println("i love mwvadi");
+        }
+    }
+
+5.
+
+public class Main {
+    public static void main(String[] args) {
+
+       String mySentence = "automation engineer";
+       if(mySentence.length()%2==0){
+           System.out.println("Hi");
+       }else{
+           System.out.println("Bye");
+       }
+    }
